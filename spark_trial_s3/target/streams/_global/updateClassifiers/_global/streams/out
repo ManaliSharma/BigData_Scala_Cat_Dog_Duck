@@ -1,0 +1,4 @@
+[debug] "not up to date. inChanged = true, force = false
+[debug] Updating ProjectRef(uri("file:/Users/manalisharma/Desktop/spark-2.4.4-bin-hadoop2.7/spark_trial_s3/"), "spark_trial_s3")...
+[debug] Done updating ProjectRef(uri("file:/Users/manalisharma/Desktop/spark-2.4.4-bin-hadoop2.7/spark_trial_s3/"), "spark_trial_s3")
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
