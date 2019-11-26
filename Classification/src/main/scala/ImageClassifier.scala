@@ -30,6 +30,7 @@ import org.deeplearning4j.spark.impl.multilayer.SparkDl4jMultiLayer
 import org.deeplearning4j.spark.impl.paramavg.ParameterAveragingTrainingMaster
 import org.apache.spark.SparkConf
 import org.apache.spark.api.java.JavaSparkContext
+import org.deeplearning4j.util.ModelSerializer
 
 import scala.collection.mutable
 import org.slf4j.{Logger, LoggerFactory}
@@ -153,6 +154,7 @@ object ImageClassifier {
       println("Completed Epoch {}", i)
       trainIter.reset
       testIter.reset
+      ModelSerializer.writeModel(model, "//main/SaveModel/model.bin",true)
 
     }
 
