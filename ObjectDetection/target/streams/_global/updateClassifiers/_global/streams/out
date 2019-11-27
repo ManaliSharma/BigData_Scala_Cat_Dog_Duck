@@ -1,0 +1,4 @@
+[debug] "not up to date. inChanged = true, force = false
+[debug] Updating ProjectRef(uri("file:/Users/manalisharma/Desktop/BigData/Project_Final/BigData_Scala_Cat_Dog_Duck/ObjectDetection/"), "objectdetection")...
+[debug] Done updating ProjectRef(uri("file:/Users/manalisharma/Desktop/BigData/Project_Final/BigData_Scala_Cat_Dog_Duck/ObjectDetection/"), "objectdetection")
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.

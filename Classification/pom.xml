@@ -90,6 +90,9 @@
             <artifactId>dl4j-spark_2.11</artifactId>
             <version>${datavec.spark.version}</version>
         </dependency>
+
+
+
     </dependencies>
 
     <build>
