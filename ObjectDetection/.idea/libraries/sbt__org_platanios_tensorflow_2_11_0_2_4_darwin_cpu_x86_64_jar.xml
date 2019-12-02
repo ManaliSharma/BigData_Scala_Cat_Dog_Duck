@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="sbt: org.platanios:tensorflow_2.11:0.2.4:darwin-cpu-x86_64:jar">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/platanios/tensorflow_2.11/0.2.4/tensorflow_2.11-0.2.4-darwin-cpu-x86_64.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
