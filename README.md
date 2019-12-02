@@ -3,12 +3,12 @@
 ## Overview
 This project is an attempt at developing an object detection model using modern computer vision technology. The project aims to incorporate state-of-the-art techniques for object detection with the goal of achieving high accuracy in detecting objects. The model is build using the MXNet Scala Inference API or Tensorflow for scala. 
 
-## Dataset being worked upon can be downloaded from here :- https://www.kaggle.com/c/imagenet-object-localization-challenge/data
+### Dataset being worked upon can be downloaded from here :- https://www.kaggle.com/c/imagenet-object-localization-challenge/data
 - Input: Images
 - Output: Identified Objects (Persian cat, mountain bike, hot dog, etc.) maximum 4 objects will be detected in this image
 - Dataset: ImageNet Dataset (Kaggle)
 
-## Pretrained Model can be downloaded from here: -http://download.tensorflow.org/models/object_detection/ssd_inception_v2_coco_2017_11_17.tar.gz 
+### Pretrained Model can be downloaded from here: -http://download.tensorflow.org/models/object_detection/ssd_inception_v2_coco_2017_11_17.tar.gz 
 (for object detection)
 
 ## Requirements (Libraries)
@@ -26,9 +26,9 @@ This project is an attempt at developing an object detection model using modern 
 - README.md
 - Object_Detector
   > - Tensorflow
-  - src
-  - target
-  - model
+  > - src
+  > - target
+  > - model
   > - Target
 - Classification
   > - src
