@@ -39,6 +39,6 @@ This project is an attempt at developing an object detection model using modern 
 
 ## How to Run
 - Clone the repository in your local disk.
-- Refer the folder structure mentioned above, and open the folder "".
-- This is the master notebook and it links to all the different parts of the project.
+- Refer the folder structure mentioned above, and open the folder "BigData_Scala_Cat_Dog_Duck".
+- This is the master folder and it links to all the different parts of the project.
 - Please make sure that the libraries mentioned above are all installed
