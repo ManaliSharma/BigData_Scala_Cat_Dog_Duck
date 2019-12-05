@@ -2,6 +2,7 @@ import java.io.{File, FileInputStream}
 import java.util.Random
 
 import org.datavec.image.recordreader.ImageRecordReader
+
 import org.datavec.api.io.labels.ParentPathLabelGenerator
 import org.datavec.api.split.FileSplit
 import org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator

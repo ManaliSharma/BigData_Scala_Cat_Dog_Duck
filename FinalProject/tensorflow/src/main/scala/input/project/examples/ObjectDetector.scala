@@ -38,13 +38,13 @@ object ObjectDetector {
 
     if (args.length < 2) printUsageAndExit()
 
-    val modelDir =  args.lift(2).getOrElse("models/ssd_inception_v2_coco_2018_01_28")
+    //val modelDir = "models/ssd_inception_v2_coco_2018_01_28")
 
     // load a pretrained detection model as TensorFlow graph
     val graphDef = GraphDef.parseFrom(
-      new BufferedInputStream(new FileInputStream(new File(new File("tensorflow", modelDir), "frozen_inference_graph.pb"))))
+      //new BufferedInputStream(new FileInputStream(new File(new File("tensorflow", modelDir), "frozen_inference_graph.pb"))))
+      new BufferedInputStream(new FileInputStream(new File("/Users/manalisharma/Desktop/BigData/FinalProject/tensorflow/src/main/resources/frozen_inference_graph.pb"))))
     val graph = Graph.fromGraphDef(graphDef)
-
     // create a session and add our pretrained graph to it
     val session = Session(graph)
 
