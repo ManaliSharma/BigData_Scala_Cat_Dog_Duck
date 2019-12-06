@@ -32,6 +32,10 @@ This project is an attempt at developing an object detection model using modern 
   > - Target
 - Classification
   > - src
+- Object Detection Model
+  > - src
+  > - target
+  > - .pom files
 - Spark_trial_S3
 - Final_Project.ppt
 
@@ -42,3 +46,4 @@ This project is an attempt at developing an object detection model using modern 
 - Refer the folder structure mentioned above, and open the folder "BigData_Scala_Cat_Dog_Duck".
 - This is the master folder and it links to all the different parts of the project.
 - Please make sure that the libraries mentioned above are all installed
+- Please make sure you have an active AWS account for running the clusters
