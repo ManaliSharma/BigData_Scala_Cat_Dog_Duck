@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ObjectDetectionTrain_DefaultArtifact">
+    <output-path>$PROJECT_DIR$/out/artifacts/ObjectDetectionTrain_DefaultArtifact</output-path>
+    <root id="archive" name="default_artifact.jar">
+      <element id="module-output" name="ObjectDetectionTrain" />
+    </root>
+  </artifact>
+</component>
