@@ -47,3 +47,8 @@ This project is an attempt at developing an object detection model using modern 
 - This is the master folder and it links to all the different parts of the project.
 - Please make sure that the libraries mentioned above are all installed
 - Please make sure you have an active AWS account for running the clusters
+-There should be active spark cluster running 
+
+spark-submit --deploy-mode cluster --master yarn --num-executors 6 --conf "spark.serializer=org.apache.spark.serializer.JavaSerializer"  --driver-cores 3 --executor-memory 10G --driver-memory 10G --conf spark.yarn.executor.memoryOverhead=2048   --class ImageClassifier  Image_Classifier.jar --resolution 300 --model /home/hadoop/analytics-zoo_ssd-vgg16-300x300_PASCAL_0.1.0.model 
+
+java -cp tensorflow_2.12-0.1.0-SNAPSHOT.jar input.project.example.ObjectDetector image child.JPEG 
